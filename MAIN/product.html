@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="icon" href="favicon_io (1)/favicon.ico">
+</head>
+<header>
+    <div class="logo">
+        <img src="img/auṣadham.png" alt="Pharmacy">
+        <h1>auṣadham</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <div class="cart-icon">
+                <a href="cart.html">
+                    <img src="img/cart-removebg-preview.png" alt="Cart">
+                </a>
+        </ul>
+    </nav>
+</header>
+        <section class="products-page">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="img/para-removebg-preview.png" alt="Product 1">
+                    <h3>Paracetamol</h3>
+                    <p>Used for:Fever and pain.</p>
+                    <p>Contains	Paracetamol / Acetaminophen.</p>
+                    <span class="price">₹19.47</span>
+                    <button class="cta-button" onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="img/ph.png" alt="Product 2" width="250px">
+                    <h3>Pudin Hara</h3>
+                    <p>Used for : flatulence, indigestion, nausea and vomiting.</p>
+                    <p>Contains Pudina Satva
+                        Tulsi
+                        Coriander
+                        Alpinia Galanga
+                        Achyranthes Aspera
+                        Andrographis Paniculata
+                        Acorus Calamus
+                        Piper Longum.</p>
+                    <span class="price">₹40.00</span>
+                    <button class="cta-button" onclick="addToCart()">Add to Cart</button>
+                    
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 auṣadham. All rights reserved.</p>
+    </footer>
+    
+<script>
+    function addToCart() {
+        window.location.href = "cart.html";
+    }
+</script>
+</body>
+</html>
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="icon" href="favicon_io (1)/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/auṣadham.png" alt="Pharmacy">
+            <h1>auṣadham</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li>
+                <a href="cart.html" class="cart-icon">
+                    <img src="img/cart-removebg-preview.png" alt="Cart">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="cart-page">
+            <h2>Your Cart</h2>
+            <div class="cart-items" id="cartItems">
+                <div class="cart-item">
+                    <div class="row-img">
+                        <img class="rowing" src="img/para-removebg-preview.png" alt="Paracetamol">
+                    </div>
+                    <div class="item-details">
+                        <p style="font-size: 12px;">Paracetamol</p>
+                        <h2 style="font-size: 15px;">₹ 19.47</h2>
+                        
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="row-img">
+                        <img class="rowing" src="img/ph.png" alt="Pudin Hara">
+                    </div>
+                    <div class="item-details">
+                        <p style="font-size: 12px;">Pudin Hara</p>
+                        <h2 style="font-size: 15px;">₹ 40.00</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="total" id="totalSection">
+                <h3>Total: ₹ 59.47</h3>
+                <button class="cta-button" onclick="buyNow()">Buy Now</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 auṣadham. All rights reserved.</p>
+    </footer>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>Order Placed with Cash on Delivery</p>
+        </div>
+    </div>
+
+    <script>
+        function buyNow() {
+            const modal = document.getElementById("myModal");
+            modal.style.display = "block";
+        }
+
+        function closeModal() {
+            const modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+</html>
