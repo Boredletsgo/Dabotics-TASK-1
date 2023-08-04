@@ -1,4 +1,4 @@
-Pharmacy Website
+Pharmacy Website-
 "auṣadham pharamcy". Welcome to auṣadham - Your Trusted Online Pharmacy Store! Its an online pharamcy store that delviers medicine at your doorstep. It consists of a navigation bar with Home, Products, About us, Login and Cart. Designed with a minimalistic design for better user interface.
 Languages used: HTML, CSS , Javascript.
 All the logos and picture used completely made by me.
